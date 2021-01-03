@@ -12,6 +12,7 @@ import {
 import db from "./firebase";
 import firebase from "firebase";
 import { useStateValue } from "./StateProvider";
+import SendIcon from "@material-ui/icons/Send";
 
 function Chat() {
   const [input, setInput] = useState("");
@@ -99,7 +100,7 @@ function Chat() {
             type="text"
           />
           <button type="submit" onClick={sendMessage}>
-            Send a message
+            <SendIcon fontSize="large" />
           </button>
         </form>
         <Mic />

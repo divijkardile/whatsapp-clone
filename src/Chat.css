@@ -91,7 +91,9 @@
 }
 
 .chat__footer > form  > button{
-    display: none;
+    margin-top: 3px;
+    border: none;
+    color: rgb(13, 124, 161);
 }
 
 .chat__footer > .MuiSvgIcon-root{
