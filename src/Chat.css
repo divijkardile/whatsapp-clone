@@ -100,3 +100,9 @@
     padding: 10px;
     color: gray;
 }
+
+@media (max-width: 910px) {
+  .chat__headerInfo > p{
+    font-size: small;
+  }
+}

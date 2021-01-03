@@ -58,3 +58,13 @@
     overflow-x: hidden;
     /* overflow: scroll; */
 }
+
+@media (max-width: 910px) {
+    .sidebar__search {
+     margin-top: 15px;
+    }
+  
+    .sidebar {
+        flex: 0.35;
+    }
+  }
